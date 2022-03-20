@@ -1,6 +1,6 @@
 {
   "email": {  //  自定义邮箱推送
-    "enable": false,
+    "enable": true,
     "smtp_address": "smtp.qq.com",  // stmp服务地址
     "smtp_port": 465,  // stmp服务端口
     "send_email": "***@qq.com",  // 发送邮箱的邮箱地址
@@ -23,7 +23,7 @@
   },
   "wechat_enterprise": { //  企业微信：https://work.weixin.qq.com/
     "enable": false,
-    "corp_id": "", // 企业 ID
+    "corp_id": "3353", // 企业 ID
     "corp_secret":  "", // 自建应用 Secret
     "agent_id":  "",  // 自建应用 ID
     "to_user": ""  // 接收者用户，多用户用|分割，所有用户填写 @all
